@@ -1,7 +1,7 @@
 {
-	"name": "sql.js",
+	"name": "@dasha.ai/sql.js",
 	"version": "1.3.0",
-	"description": "SQLite library with support for opening and writing databases, prepared statements, and more. This SQLite library is in pure javascript (compiled with emscripten).",
+	"description": "A fork of sql.js with the JSON1 extension enabled by default.",
 	"keywords": [
 		"sql",
 		"sqlite",
@@ -31,10 +31,10 @@
 		"test-wasm-debug": "node test/all.js wasm-debug",
 		"doc": "jsdoc -c .jsdoc.config.json"
 	},
-	"homepage": "http://github.com/sql-js/sql.js",
+	"homepage": "http://github.com/dasha-ai/sql.js",
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/sql-js/sql.js.git"
+		"url": "http://github.com/dasha-ai/sql.js.git"
 	},
 	"bugs": {
 		"url": "https://github.com/sql-js/sql.js/issues"

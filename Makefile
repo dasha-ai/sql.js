@@ -23,6 +23,7 @@ CFLAGS = \
 	-DSQLITE_DISABLE_LFS \
 	-DSQLITE_ENABLE_FTS3 \
 	-DSQLITE_ENABLE_FTS3_PARENTHESIS \
+	-DSQLITE_ENABLE_JSON1 \
 	-DSQLITE_THREADSAFE=0
 
 # When compiling to WASM, enabling memory-growth is not expected to make much of an impact, so we enable it for all builds
